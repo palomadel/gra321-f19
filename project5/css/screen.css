@@ -1,0 +1,39 @@
+/* Styles for Project 5 */
+
+body {  
+background-color: antiquewhite;    
+font-family: abolition-soft, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1px;
+line-height: 1.5;
+padding: 10%;   
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+h2 {
+    color: indianred;
+    font-size: 40px;
+    line-height: .5;
+}
+
+h3 {
+    color: grey;
+    font-size: 25px;
+    line-height: .5;
+}
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
