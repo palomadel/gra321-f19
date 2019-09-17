@@ -6,7 +6,7 @@ font-family: abolition-soft, sans-serif;
 font-size: 30px;
 font-style: normal;
 font-weight: 400;
-letter-spacing: 1px;
+letter-spacing: 1.5px;
 line-height: 1.5;
 padding: 10%;   
 }
@@ -22,12 +22,14 @@ h1 {
 h2 {
     color: indianred;
     font-size: 40px;
+    font-weight: 300;
     line-height: .5;
 }
 
 h3 {
     color: grey;
     font-size: 25px;
+    font-weight: 300;
     line-height: .5;
 }
 img {
