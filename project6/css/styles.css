@@ -52,11 +52,11 @@ ul {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   body {
  align-content: center; 
-      text-align: center;
-      padding: 1%
+text-align: center;
+padding: 5%
   }
 }
 
