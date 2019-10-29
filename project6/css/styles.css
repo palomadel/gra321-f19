@@ -63,10 +63,9 @@ ul {
 
 
 @media only screen and (max-width: 700px) {
-  body {
- align-content: center; 
+  body { align-content: center; 
 text-align: center;
-padding: 5%
+
   }
 }
 
