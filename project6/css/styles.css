@@ -65,7 +65,16 @@ ul {
 
 
 @media only screen and (max-width: 600px) {
-  body {  
+  body { 
+       background-color: rosybrown;
+    color: whitesmoke;
+    font-family: benton-modern-display, serif;
+    font-style: normal;
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    text-align: center;
+    align-content: center;
       padding-left: 5%;
     padding-right: 5%
   }
