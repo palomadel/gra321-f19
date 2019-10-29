@@ -9,6 +9,7 @@ body {
     letter-spacing: 1.5px;
     line-height: 1.5;
     padding: 25%;
+    text-align: center;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
     color: floralwhite;
     font-size: 70px;
     font-weight: 900;
-    padding-left: 7%;
+    padding-left: 5%;
     padding-right: 7%;
 }
 
