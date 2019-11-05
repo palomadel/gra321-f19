@@ -103,7 +103,7 @@ li {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   li {
       
     grid-template-areas:
@@ -157,7 +157,6 @@ h1{
     align-content: center;
     text-align: center;
     font-size: 70px; 
-    flex: 100%
     }   
    
     
