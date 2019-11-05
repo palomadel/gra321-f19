@@ -114,7 +114,8 @@ li {
     }    
     
     hi {
-        
+        font-size-adjust: auto;
+        padding-left: 10%;
         align-content: center;
     }
 .row {
