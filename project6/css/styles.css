@@ -107,7 +107,7 @@ li {
   }
 
 .row {
-    display: flex;
+    display: 50%;
 }
 
 .column {
