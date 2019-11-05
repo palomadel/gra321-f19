@@ -1,25 +1,29 @@
 /* Styles for Project 6 */
 
 body {
-    background-color: rosybrown;
-    color: whitesmoke;
+    background-color: #967D69;
+    color: white;
     font-family: benton-modern-display, serif;
     font-style: normal;
     font-size: 27px;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
     line-height: 1.5;
-    text-align: center;
-    align-content: center;
-          padding-left: 7%;
+    text-align: left;
+    padding-left: 7%;
     padding-right: 7%
    
 }
 
 h1 {
-    color: floralwhite;
-    font-size: 70px;
+    color: white;
+    font-size: 90px;
     font-weight: 900;
-  
+    color: #fff; 
+    text-align: center;
+    Padding: 0;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    border: 2pt;
 }
 
 h2 {
@@ -33,13 +37,16 @@ h3 {
     font-size: 40px;
     font-weight: 700;
      line-height: 1;
+    padding-top: 0%;
     
 }
 h4 {
+    
     font-size: 32px;
     font-weight: 650;
     line-height: 1;
-     
+    padding-right: 10%;
+    text-align: right;
     
 }
 
@@ -53,7 +60,8 @@ p {
         
 }
 img {
-    max-width: 450px;
+    max-width: 300px;
+    padding-bottom: 3%;
 }
 
 ul {
@@ -61,13 +69,71 @@ ul {
 }
 
 
-@media only screen and (max-width: 600px) {
-  body { 
-      
-    text-align: center;
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 75%;
+    padding: 10px;
+}
+
+.heading {
+    
     align-content: center;
-      padding-left: 5%;
-    padding-right: 5%
+    padding-left: 8%
+}
+
+@media screen and (max-width: 600px) {
+
+
+   
+
+@media screen and (min-width: 600px) {
+  li {
+    grid-template-areas:
+      "product s m l";
   }
 }
+
+     .column {
+        width: 100%;
+    }
+}
+
+
+
+li {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "product product product product"
+    "s m l .";
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 1rem;
+  width: 100%;
+}
+.product {
+  background:;
+  grid-area: product;
+}
+.small {
+  background: ;
+  grid-area: s;
+}
+.medium {
+  background: ;
+  grid-area: m;
+}
+.large {
+  background:;
+  grid-area: l;
+}
+ul {
+  width: 100%;
+}
+
+
 
