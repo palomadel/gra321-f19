@@ -135,6 +135,14 @@ li {
   background: none;
   grid-area: l;
 }
+
+body {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%
+   
+}    
     
 h1{
     width: 100%;
@@ -145,7 +153,8 @@ h1{
 ul {
   width: 100%;
 }
-   
+
+    
 
     
     
