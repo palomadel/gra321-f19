@@ -50,7 +50,7 @@ h4 {
     font-weight: 650;
     line-height: 1;
     padding-right: 10%;
-    text-align: right;
+    text-align: left;
     
 }
 
@@ -71,8 +71,6 @@ img {
 ul {
     margin-bottom: 2rem;
 }
-
-
 
 
 .row {
@@ -96,7 +94,7 @@ li {
   grid-gap: 1rem;
   grid-template-areas: 
     "product product product product"
-    "s m l .";
+    ". s m l .";
   grid-template-columns: 2fr 1fr 1fr 1fr;
   padding: 1rem;
   width: 100%;
@@ -106,6 +104,7 @@ li {
 
 @media screen and (max-width: 600px) {
   li {
+      
     grid-template-areas:
       "product s m l";
   }
@@ -113,12 +112,19 @@ li {
   
 .row {
     
-    display: flex;
+    flex: 100%;
+     .container {
+    /* Make the .container display as a grid */
+    display: grid;
+    /* Setup your column grid here */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
 }
 
 .column {
-    flex: 100%;
-    padding: 15px;
+    flex: 50%;
+    padding: 5px;
 }
     
 .product {
@@ -139,8 +145,9 @@ li {
 }
 
 body {
-    width: 100%;
+    width: 90%;
     text-align: left;   
+    padding: 5%;
    
 }    
     
@@ -154,11 +161,8 @@ h1{
 ul {
   width: 100%;
 }
-
-    
-
-    
-    
+   
+   
     
 }
 
