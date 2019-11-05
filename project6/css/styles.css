@@ -144,17 +144,18 @@ body {
    
 }    
     
+ 
+ul {
+  width: 100%;
+}
+
+
 h1{
     width: 100%;
     align-content: center;
     text-align: center;
-    font-size: 70px;
-        
-    }    
-ul {
-  width: 100%;
-}
-   
+    font-size: 70px;  
+    }   
    
     
 }
