@@ -112,14 +112,7 @@ li {
   
 .row {
     
-    flex: 100%;
-     .container {
-    /* Make the .container display as a grid */
-    display: grid;
-    /* Setup your column grid here */
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-  }
+    flex: 100;
 }
 
 .column {
