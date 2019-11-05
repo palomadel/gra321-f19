@@ -129,21 +129,21 @@ li {
   background: none;
   grid-area: s;
 }
+    
 .medium {
   background:none;
   grid-area: m;
 }
+    
 .large {
   background: none;
   grid-area: l;
 }
 
 body {
-    width: 90%;
-    text-align: justify;   
+    width: 90%;  
     padding: 5%;
     padding-left: 0;
-
    
 }    
     
@@ -155,9 +155,9 @@ ul {
 
 h1{
     width: 100%;
-    align-content: center;
     text-align: center;
     font-size: 70px; 
+    padding: 2%;
     }   
    
     
