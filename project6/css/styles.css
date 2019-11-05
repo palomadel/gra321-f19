@@ -106,6 +106,10 @@ li {
       "product s m l";
   }
 
+    body {
+        
+        align-content: center;
+    }    
 .row {
     display: 50%;
 }
