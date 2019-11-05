@@ -109,11 +109,11 @@ li {
    
   
 .row {
-    display: 50%;
+    display: 100%;
 }
 
 .column {
-    flex: 75%;
+    flex: 100%;
     padding: 10px;
 }
     
