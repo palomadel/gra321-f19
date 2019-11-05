@@ -86,12 +86,7 @@ ul {
     padding-left: 8%
 }
 
-@media screen and (max-width: 600px) {
-
-
-   
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
   li {
     grid-template-areas:
       "product s m l";
