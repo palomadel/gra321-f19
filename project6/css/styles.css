@@ -112,6 +112,11 @@ li {
         align-content: center;
         text-align: center;
     }    
+    
+    hi {
+        
+        align-content: center;
+    }
 .row {
     display: 50%;
 }
