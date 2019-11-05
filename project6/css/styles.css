@@ -82,22 +82,9 @@ ul {
 
 .heading {
     
-    align-content: center;
-    padding-left: 8%
+    align-content: right;
+    padding-left: 0%
 }
-
-@media screen and (min-width: 680px) {
-  li {
-    grid-template-areas:
-      "product s m l";
-  }
-}
-
-     .column {
-        width: 100%;
-    }
-}
-
 
 
 li {
@@ -110,25 +97,44 @@ li {
   padding: 1rem;
   width: 100%;
 }
+
+
+
+@media screen and (min-width: 680px) {
+  li {
+    grid-template-areas:
+      "product s m l";
+  }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 75%;
+    padding: 10px;
+}
+    
 .product {
-  background:;
+  background: none;
   grid-area: product;
 }
 .small {
-  background: ;
+  background: none;
   grid-area: s;
 }
 .medium {
-  background: ;
+  background:none;
   grid-area: m;
 }
 .large {
-  background:;
+  background: none;
   grid-area: l;
 }
 ul {
   width: 100%;
 }
-
+    
+}
 
 
