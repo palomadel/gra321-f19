@@ -157,7 +157,7 @@ h1{
     align-content: center;
     text-align: center;
     font-size: 70px; 
-    padding: 5%;
+    flex: 100%
     }   
    
     
