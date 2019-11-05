@@ -41,6 +41,7 @@ h3 {
     padding-top: 0%;
     
 }
+
 h4 {
     
     font-size: 32px;
@@ -57,9 +58,9 @@ p {
     font-weight: 10;
        
         
-        
-        
+          
 }
+
 img {
     max-width: 300px;
     padding-bottom: 3%;
@@ -109,7 +110,8 @@ li {
    
   
 .row {
-    display: 100%;
+    
+    display: 75%;
 }
 
 .column {
@@ -133,6 +135,13 @@ li {
   background: none;
   grid-area: l;
 }
+    
+h1{
+    width: 100%;
+    align-content: center;
+    font-size: 70px;
+        
+    }    
 ul {
   width: 100%;
 }
