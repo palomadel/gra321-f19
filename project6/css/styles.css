@@ -134,6 +134,78 @@ li {
 ul {
   width: 100%;
 }
+   
+body {
+    background-color: #967D69;
+    color: white;
+    font-family: benton-modern-display, serif;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 7%;
+    padding-right: 7%
+   
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    color: #fff; 
+    text-align: center;
+    Padding: 0;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    border: 2pt;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1;
+  
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+     line-height: 1;
+    padding-top: 0%;
+    
+}
+h4 {
+    
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1;
+    padding-right: 10%;
+    text-align: right;
+    
+}
+
+p {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 10;
+       
+        
+        
+        
+}
+img {
+    max-width: 150px;
+    padding-bottom: 3%;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+    
+    
+    
     
 }
 
