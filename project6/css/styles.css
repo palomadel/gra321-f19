@@ -116,7 +116,8 @@ li {
     h1 {
         font-size-adjust: auto;
         padding-left: 25%;
-        align-content: center;
+        align-content: right;
+        
     }
 .row {
     display: 50%;
