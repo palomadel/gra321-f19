@@ -1,5 +1,9 @@
 /* Styles for Project 6 */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #967D69;
     color: white;
@@ -9,8 +13,7 @@ body {
     letter-spacing: 3px;
     line-height: 1.5;
     text-align: left;
-    padding-left: 7%;
-    padding-right: 7%
+    padding: 10%
    
 }
 
@@ -22,7 +25,6 @@ h1 {
     text-align: center;
     align-content: center;
     Padding: 0;
-    padding-top: 6%;
     padding-bottom: 3%;
     border: 2pt;
 }
@@ -78,7 +80,7 @@ ul {
 }
 
 .column {
-    flex: 75%;
+    flex: 50%;
     padding: 10px;
 }
 
@@ -138,9 +140,7 @@ li {
 
 body {
     width: 100%;
-    text-align: left;
-    padding-left: 10%;
-    padding-right: 10%
+    text-align: left;   
    
 }    
     
