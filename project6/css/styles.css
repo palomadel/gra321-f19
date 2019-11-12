@@ -94,9 +94,9 @@ li {
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
-    "product product product product"
-    ". s m l .";
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+    "product s m l";
+   
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 1rem;
   width: 100%;
 }
@@ -107,18 +107,19 @@ li {
   li {
       
     grid-template-areas:
-      "product s m l";
+      "s m l";
   }
    
   
 .row {
     
     flex: 100%;
+    width: 90%
 }
 
 .column {
     flex: 50%;
-    padding: 5px;
+    padding: 10px;
 }
     
 .product {
@@ -142,14 +143,16 @@ li {
 
 body {
     width: 90%;  
-    padding: 5%;
+    padding: 0%;
     padding-left: 0;
-   padding-right: 5%;
-}    
+   padding-right: 10%;
+
+    }    
+
     
  
 ul {
-  width: 100%;
+  width: 90%;
 }
 
 
@@ -157,7 +160,8 @@ h1{
     width: 100%;
     text-align: center;
     font-size: 70px; 
-    padding: 5%;
+    padding-left: 20%;
+    padding-top: 6%;
     }   
    
     
